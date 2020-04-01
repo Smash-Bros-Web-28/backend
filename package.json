@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Smash-Bros-Web-28/backend/issues"
   },
-  "homepage": "https://github.com/Smash-Bros-Web-28/backend#readme"
+  "homepage": "https://github.com/Smash-Bros-Web-28/backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
 }
