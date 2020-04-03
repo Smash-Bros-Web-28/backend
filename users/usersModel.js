@@ -12,11 +12,11 @@ function findAllUsers() {
 }
 
 function addUser(creds) {
-    return db('users').insert(creds, db('users').where(creds.username))
+    return db('users').insert(creds, "id")
 }
 
-function findUserByName(username) {
-    return db('users').where(username)
+function findUserByName(gamerTag) {
+    return db('users').where(gamerTag)
 }
 
 function removeUser(id) {
